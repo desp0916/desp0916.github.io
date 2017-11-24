@@ -1,5 +1,5 @@
 ---
-title: 使用 Powershell 將 Logstash 設為 Windows 服務
+title: 使用 PowerShell 將 Logstash 設為 Windows 服務
 layout: post
 category: logstash powershell
 tags: logstash windows service powershell
