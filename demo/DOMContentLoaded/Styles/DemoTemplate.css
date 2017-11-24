@@ -1,0 +1,68 @@
+
+
+
+
+
+/*
+     FILE ARCHIVED ON 15:38:22 四月 12, 2015 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 5:54:27 一月 18, 2016.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+body
+{
+    position: relative;
+    margin: 0px auto 0px auto;
+    min-width: 960px;
+    max-width: 1080px;
+    padding: 0px 40px 0px 40px;
+}
+
+#DemoScreenreaderText
+{
+    position: absolute;
+    left: -10000px;
+}
+
+#DemoTitle
+{
+    padding: 40px 0px 0px 0px;
+    font-size: 24pt;
+    font-weight: normal;
+    color: #00a3ef;
+}
+
+#DemoIntroduction
+{
+    margin: 40px 0px 0px 0px;
+}
+
+#DemoContent
+{
+    margin: 30px 0px 0px 0px;
+}
+
+#DemoDetails
+{
+    margin: 30px 0px 0px 0px;
+}
+
+#DemoReturnButton
+{
+    position: absolute;
+    display: block;
+    top: -1px;
+    right: 40px;
+    width: 210px;
+    height: 29px;
+    background-image: url("/web/20150412153822/http://ie.microsoft.com/Testdrive/Includes/Image/ReturnButton.png");
+    text-indent: -10000px;
+    z-index: 1000;
+}
+
+#DemoReturnButton:hover
+{
+    background-image: url('/web/20150412153822/http://ie.microsoft.com/Testdrive/Includes/Image/ReturnButtonHover.png');
+}

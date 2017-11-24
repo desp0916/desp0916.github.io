@@ -1,0 +1,21 @@
+
+
+
+
+
+/*
+     FILE ARCHIVED ON 4:06:40 二月 11, 2015 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 5:55:44 一月 18, 2016.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+ul { list-style-type: none; }
+#timing { display: table; width: 100%; margin:10px 0; }
+.timing-result { display: table-cell; font-size: 18px; text-align: center; width: 33%; }
+#DCL, #load { font-size: 36pt; font-weight: bold; color: green; }
+#delta { font-weight: bold; margin-top: 1em; }
+#images { text-align: center; margin-top: 10px; }
+.delta { font-size: small; color: Black; }
+img { width: 300px; height: 200px; }

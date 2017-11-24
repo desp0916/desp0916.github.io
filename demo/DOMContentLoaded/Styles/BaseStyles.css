@@ -1,0 +1,58 @@
+
+
+
+
+
+/*
+     FILE ARCHIVED ON 1:15:39 四月 4, 2015 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 5:51:15 一月 18, 2016.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+*
+{
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+}
+
+html
+{
+    height: 100%;
+}
+
+body
+{
+    font-family: 'Segoe UI' , Verdana, Helvetica, Sans-Serif;
+    font-size: 10pt;
+    height: 100%;
+    background-color: white;
+    color: #424242;
+}
+
+p
+{
+    padding: 0px 0px 10pt 0px;
+}
+
+a
+{
+    text-decoration: none;
+}
+
+a, a:visited, a:hover
+{
+    color: #00a3ef;
+}
+
+a:hover, a:visited:hover
+{
+    color: #00a3ef;
+    text-decoration: underline;
+}
+
+.bold
+{
+    font-family: 'Segoe UI Semibold';
+}

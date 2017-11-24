@@ -1,0 +1,20 @@
+title: desp0916@github
+description: >
+  **I am Gary Liu**, a developer in
+  Taiwan. I enjoy hacking and coding.
+copyright: Untitled
+sass:
+  sass_dir: assets/sass
+disqus_shortname: "desp0916"
+facebook_username: "desp0916"
+twitter_username: "desp0916"
+linkedin_username: "desp0916"
+instagram_username: "desp0916"
+pinterest_username: 
+flickr_username:
+github_username:  "desp0916"
+feed_icon: rss
+email: "desp0916@gmail.com"
+paginate_path: "/page/:num/"
+paginate: 5
+gems: [jekyll-paginate]

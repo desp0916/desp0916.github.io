@@ -1,0 +1,126 @@
+{
+  "took" : 3,
+  "timed_out" : false,
+  "_shards" : {
+    "total" : 5,
+    "successful" : 5,
+    "failed" : 0
+  },
+  "hits" : {
+    "total" : 5,
+    "max_score" : 1.0,
+    "hits" : [ {
+      "_index" : "posts",
+      "_type" : "sys",
+      "_id" : "AVkVAP2eCIXermwIX-iq",
+      "_score" : 1.0,
+      "_source" : {
+        "title" : "DR FTP共用平台主機移轉作業公告",
+        "creator" : "楊大文",
+        "creatorEmail" : "jerry_yang@abc.net.tw",
+        "createdAt" : "2016-12-14T09:33:00+0800",
+        "start" : "2016-12-19T13:30:00+0800",
+        "end" : "2016-12-19T15:30:00+0800",
+        "post" : "進行DR FTP共用平台主機移轉作業，由舊主機移轉至新主機。",
+        "impact" : "作業期間: DR FTP共用平台系統暫停服務，已協調週邊系統避開Job執行時間，待作業結束後始可提供正常服務。\n (以上作業時間已與AP單位協調確認後為影響面最小之可行時間)",
+        "contacts" : [ {
+          "contact" : "蔡先生",
+          "contactUnit" : "主機管理二Team",
+          "tel" : "0922-144-545"
+        } ]
+      }
+    }, {
+      "_index" : "posts",
+      "_type" : "sys",
+      "_id" : "AVkVAShkCIXermwIX-is",
+      "_score" : 1.0,
+      "_source" : {
+        "title" : "Intranet Co-Location L3 Switch 光纖模組更換作業",
+        "creator" : "陳可可",
+        "creatorEmail" : "ebb@abc.net.tw",
+        "createdAt" : "2016-12-15T10:33:00+0800",
+        "start" : "2016-12-20T13:30:00+0800",
+        "end" : "2016-12-20T15:30:00+0800",
+        "post" : "Intranet Co-Location L3 Switch 光纖模組更換作業",
+        "impact" : "1. 主要影響：Intranet Co-Location各DB系統、速速IDC系統\n2. 次要影響：Internet Co-Location各WEB系統\n3. 作業期間，各系統陸續會有約1分鐘的通訊中斷 ; 若有超出預期的狀況導致系統受影響，將立即停止作業。\n4. 於作業期間內有重要的JOB請協助預先排開。\n5. 若有時間上任何問題請提前告知，全力配合調整。",
+        "contacts" : [ {
+          "contact" : "蘇小小",
+          "contactUnit" : "網路Team",
+          "tel" : "0912-223-345"
+        } ]
+      }
+    }, {
+      "_index" : "posts",
+      "_type" : "sys",
+      "_id" : "AVkVAWNyCIXermwIX-iw",
+      "_score" : 1.0,
+      "_source" : {
+        "title" : "ibon mart電子發票及主網Web一號主機本機防火牆設定調整作業公告",
+        "creator" : "高飛飛",
+        "creatorEmail" : "hunter.chen@abc.net.tw",
+        "createdAt" : "2016-12-16T13:43:00+0800",
+        "start" : "2016-12-21T13:30:00+0800",
+        "end" : "2016-12-21T15:30:00+0800",
+        "post" : "12月20日進行abc mart 電子發票(abcinvoice)主機本機防火牆設定調整作業。\n12月22日進行abc mart 主網Web一號(abcweb01)主機本機防火牆設定調整作業。",
+        "impact" : "於作業期間，電子發票訂單貨態更新延遲，主網Web服務由其他主機持續提供服務，不影響正常業務運作。\n(以上作業時間已與超商網購及相關業務單位協調確認後為影響面最小之可行時間) ",
+        "contacts" : [ {
+          "contact" : "劉津津",
+          "contactUnit" : "主機管理Team",
+          "tel" : "0933-929-708"
+        } ]
+      }
+    }, {
+      "_index" : "posts",
+      "_type" : "sys",
+      "_id" : "AVkU__vdCIXermwIX-ig",
+      "_score" : 1.0,
+      "_source" : {
+        "title" : "速速三代商流平台系統主機資安Patch更新作業公告",
+        "creator" : "李常生",
+        "creatorEmail" : "shen_lee@abc.net.tw",
+        "createdAt" : "2016-12-08T17:10:00+0800",
+        "start" : "2016-12-13T22:00:00+0800",
+        "end" : "2016-12-13T23:00:00+0800",
+        "post" : "進行速速三代商流平台系統主機(susu3gbfsap1、susu3gbfsap2、susu3gscmap1、susu3gbfsdbha1)資安Patch更新作業。",
+        "impact" : "作業期間: 因速速三代商流平台系統AP主機有備援機制，系統業務不受影響。\n因速速三代商流平台系統DB主機(susu3gbfsdbha1)進行HA切換作業，切換期間無法使用。\n(以上作業時間已與AP單位協調確認後為影響面最小之可行時間)",
+        "contacts" : [ {
+          "contact" : "許明明",
+          "contactUnit" : "主機管理Team",
+          "tel" : "0912-707-657"
+        }, {
+          "contact" : "陳分分",
+          "contactUnit" : "資料庫管理Team",
+          "tel" : "0939-837-059"
+        }, {
+          "contact" : "蔡秀秀",
+          "contactUnit" : "金通財",
+          "tel" : "02-8312-1292 #276"
+        } ]
+      }
+    }, {
+      "_index" : "posts",
+      "_type" : "sys",
+      "_id" : "AVkVAL-TCIXermwIX-io",
+      "_score" : 1.0,
+      "_source" : {
+        "title" : "速速託運單列印系統主機資安Patch更新作業公告",
+        "creator" : "鄭小龍",
+        "creatorEmail" : "jerry_yang@abc.net.tw",
+        "createdAt" : "2016-12-12T19:10:00+0800",
+        "start" : "2016-12-17T23:30:00+0800",
+        "end" : "2016-12-18T01:00:00+0800",
+        "post" : "12/17進行速速託運單列印系統主機(ecat2gweb02、ecat2gftp、ecat2gdb02)資安Patch更新作業。",
+        "impact" : "12/17因託運單列印系統AP、DB主機皆有備援機制，系統業務不受影響。",
+        "contacts" : [ {
+          "contact" : "劉志龍",
+          "contactUnit" : "主機管理Team",
+          "tel" : "0909-722-022"
+        }, {
+          "contact" : "宋宏宏",
+          "contactUnit" : "資料庫管理Team",
+          "tel" : "0920-721-021"
+        } ]
+      }
+    } ]
+  }
+}
