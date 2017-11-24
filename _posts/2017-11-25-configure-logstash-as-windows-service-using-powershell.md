@@ -6,14 +6,19 @@ tags: logstash windows service powershell
 comments: true
 ---
 
+由於近來常常在 Windows Server 2012 R2 上手動安裝 Logstash 5.x，因為實在太繁瑣耗時，而官方又沒有
+提供自動化的安裝程式，所以就用 PowerShell 寫了這支 script，也順便趁這個機會學習 PowerShell。
+
+以下有幾點注意事項：
+
+  1. 僅支援 PowerShell 5.1 以上版本。
+  2. 本程式將以 Administrator 身份執行。
+  3. 請先安裝 Java 8 (或更高版本)。
+
+最後，希望這支 Script 對有類似需要的朋友們有所幫助。
+
 ```powershell
 # Logstash 自動安裝程式
-#
-# 注意事項：
-#
-#  1. 僅支援 PowerShell 5.1 以上版本。
-#  2. 本程式將以 Administrator 身份執行。
-#  3. 請先安裝 Java 8 (或更高版本)。
 #
 # 參考：
 #
