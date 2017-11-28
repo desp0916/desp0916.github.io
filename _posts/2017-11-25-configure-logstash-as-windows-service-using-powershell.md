@@ -133,9 +133,9 @@ function AddLogstashBinToEnvPath($LogstashHomePath) {
     If ($exits) {
         Write-Warning "$LogstashHomePath 已存在於使用者的 %PATH% 環境變數中。"
     } Else {
-        Write-Host "將 $LogstashHomePath 加入使用者的 `$PATH 環境變數中..."
+        Write-Host "將 $LogstashHomePath 加入系統的 PATH 環境變數中..."
         # https://stackoverflow.com/questions/714877/setting-windows-powershell-path-variable
-        [Environment]::SetEnvironmentVariable("Path", $env:Path + ";" + $LogstashHomePath + "\bin", [EnvironmentVariableTarget]::User)
+        [Environment]::SetEnvironmentVariable("Path", $env:Path + ";" + $LogstashHomePath + "\bin", [EnvironmentVariableTarget]::Machine)
     }
 }
 
