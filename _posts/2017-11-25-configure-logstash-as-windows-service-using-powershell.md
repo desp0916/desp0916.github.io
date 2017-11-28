@@ -128,10 +128,10 @@ function EnableTelnetClientOnWinServer {
 # 將 logstash 的 bin 目錄設定到 PATH 環境變數之中
 # https://docs.microsoft.com/zh-tw/powershell/module/microsoft.powershell.localaccounts/get-localuser?view=powershell-5.1
 function AddLogstashBinToEnvPath($LogstashHomePath) {
-    Write-Host "==> 檢查 $LogstashHomePath 是否已存在於使用者的 %PATH% 環境變數中？" -ForegroundColor Green
+    Write-Host "==> 檢查 $LogstashHomePath 是否已存在於 PATH 環境變數中？" -ForegroundColor Green
     $exits = $env:Path -split ";" | Foreach {$_.trim('\')} | Select-String -Pattern $([regex]::Escape($LogstashHomePath.trim('\')))
     If ($exits) {
-        Write-Warning "$LogstashHomePath 已存在於使用者的 %PATH% 環境變數中。"
+        Write-Warning "$LogstashHomePath 已存在於 PATH 環境變數中。"
     } Else {
         Write-Host "將 $LogstashHomePath 加入系統的 PATH 環境變數中..."
         # https://stackoverflow.com/questions/714877/setting-windows-powershell-path-variable
